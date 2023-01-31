@@ -1,2 +1,2 @@
 # WOOOO
-https://github.com/Salo2404/WOOOO.git
+https://salo2404.github.io/WOOOO/
