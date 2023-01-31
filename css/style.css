@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white
+}
+
+.wrapper {
+    min-height: 100%;
+    background-color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(../img/content/photo_2022-12-06_12-53-20.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 52px;
+    height: 42px;
+    display: block;
+}
+
+.logo__pic {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn {
+    background-color: #F6762C;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 15px 36px;
+}
+
+.hero__content {
+    max-width: 49%;
+    padding-top: 186px;
+}
+
+.hero__info {
+    color: #FFFFFF;
+}
+
+.hero__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.18;
+}
+
+.hero__title {
+    margin-bottom: 30px;
+}
+
+.hero__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    color: rgb(255, 255, 255, 0.7);
+    margin-bottom: 42px;
+}
+
+.food {
+    padding-right: 600px;
+    padding-top:20px ;
+    background: url(../img/content/2560px-Girls-logo.svg.png) no-repeat center/cover;
+    
+    
+}
+
+.food2{
+    background: url(../img/content/the-boys-prime-video-logo-66921DD5C9-seeklogo.com.png) no-repeat center/cover;
+    padding-right: 600px;
+    padding-top:20px ;
+    
+}
+.href{
+    color: rgb(0, 179, 255);
+}
+
+.allfood{
+    
+}
+
+.food__list {}
+
+.food__item {}
+
+.food__img__wrapp {
+    max-width: 300px;
+    border-radius: 50px;
+}
+
+.food__img {
+    border-radius: 50px;
+}
+
+.food__item-title {}
+
+.food__dish-desc {}
+
+@media screen {
+    max-width: 1200px;
+}
+
+@media screen {
+    max-width: (998px);
+}
+
+@media screen {
+    max-width: (768);
+}
+
+@media screen {
+    max-width: 667px;
+}
+
+@media screen {
+    max-width: 1200px;
+}
